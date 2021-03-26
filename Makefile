@@ -1,5 +1,5 @@
 ARCH ?= amd64
-ALL_ARCH = amd64 arm64 arm ppc64le
+ALL_ARCH = amd64 arm64 arm ppc64le mips64el
 
 export BUILDARCH = $(ARCH)
 

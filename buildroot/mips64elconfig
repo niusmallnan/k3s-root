@@ -1,0 +1,44 @@
+#
+# Target options
+#
+BR2_ARCH_IS_64=y
+BR2_ARCH_HAS_MMU_MANDATORY=y
+# BR2_arcle is not set
+# BR2_arceb is not set
+# BR2_arm is not set
+# BR2_armeb is not set
+# BR2_aarch64 is not set
+# BR2_aarch64_be is not set
+# BR2_csky is not set
+# BR2_i386 is not set
+# BR2_m68k is not set
+# BR2_microblazeel is not set
+# BR2_microblazebe is not set
+# BR2_mips is not set
+# BR2_mipsel is not set
+# BR2_mips64 is not set
+BR2_mips64el=y
+# BR2_nds32 is not set
+# BR2_nios2 is not set
+# BR2_or1k is not set
+# BR2_powerpc is not set
+# BR2_powerpc64 is not set
+# BR2_powerpc64le is not set
+# BR2_riscv is not set
+# BR2_sh is not set
+# BR2_sparc is not set
+# BR2_sparc64 is not set
+# BR2_x86_64 is not set
+# BR2_xtensa is not set
+BR2_ARCH_HAS_TOOLCHAIN_BUILDROOT=y
+BR2_ARCH="mips64el"
+BR2_ENDIAN="LITTLE"
+BR2_GCC_TARGET_ARCH="mips64r6"
+BR2_GCC_TARGET_ABI="64"
+BR2_BINFMT_SUPPORTS_SHARED=y
+BR2_READELF_ARCH_NAME="MIPS R3000"
+BR2_BINFMT_ELF=y
+BR2_MIPS_CPU_MIPS64R6=y
+BR2_mips_64r6=y
+BR2_MIPS_NABI64=y
+BR2_MIPS_SOFT_FLOAT=y
